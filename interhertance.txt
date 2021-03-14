@@ -1,0 +1,16 @@
+các quan hệ:
+quan hệ kết tập:
+composition quan hệ ràng buộc:
+dependency/use: quan hệ phụ thuộc: đây k phải liên kết dạng cấu trúc
+
+inheritance: kế thừa: cung cấp cơ chế , lợi ích cho việc viết ma nguồn trở nên đơn giản hơn
+
+tạo thêm 1 lớp book
+tạo 1 lớp super cha media để cho book và DVD
+
+
+
+bước 1: import
+bước 2: xây dựn lớp Book khai báo public, super class object
+bước 3: taoj lớp media, chưa các thông tin chung ở class book và DVD(refactoring)
+bước 4: chỉnh sửa orders

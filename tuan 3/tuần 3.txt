@@ -1,0 +1,26 @@
+[5:33 PM] Nguyen Manh Tuan
+    Xây dựng nội dung đầu tiên là biểu đồ usecase cho bài toán
+​[5:33 PM] Nguyen Manh Tuan
+    Thầy sẽ tạo bài tập để các nhóm nộp trên hệ thống Teams
+​[5:34 PM] Nguyen Trung Thanh 20176874
+    đề xuất ý tưởng mới thì cũng nộp lên đây luôn ạ? 
+​[5:34 PM] Nguyen Manh Tuan
+    Ngoài biểu đồ thì cần kèm thêm đặc tả chi tiết nhé
+<https://teams.microsoft.com/l/message/19:2c26e373b26c437fae4b18d9401a30c1@thread.tacv2/1585305214566?tenantId=06f1b89f-07e8-464f-b408-ec1b45703f31&amp;groupId=e2c91277-fd67-4d13-8122-53e466d40f35&amp;parentMessageId=1585276317377&amp;teamName=113830 - IT3102 - Lý thuyết và ngôn ngữ hướng đối tượng (T6)&amp;channelName=Bài 4-Một số kỹ thuật xây dựng lớp&amp;createdTime=1585305214566>
+[5:35 PM] Nguyen Manh Tuan
+    Nếu có đề xuất nội dung bài tập lớn không trong danh sách đề tài thì cũng nộp lên nhé
+​[5:35 PM] Nguyen Manh Tuan
+    Astah UML
+​[5:36 PM] Do Thi Hong 20176878
+    Thầy có thể giải thích lại yêu cầu btvn k ạ, em chưa hiểu yêu cầu của đề bài lắm ạ
+​[5:36 PM] Nguyen Manh Tuan
+    Bài tập về nhà là mở rộng lớp MyDate đã làm hôm trước
+​[5:36 PM] Nguyen Manh Tuan
+    Xây dựng thêm các phương thức nạp chồng các phương thức setX()
+​[5:37 PM] Nguyen Manh Tuan
+    để tham số vào có thể là các xâu ký tự thay vì các giá trị số
+(1 liked)​[5:37 PM] Nguyen Manh Tuan
+    và xây dựng 2 phương thức print() in ra thông tin của đối tượng MyDate
+​[5:38 PM] Nguyen Manh Tuan
+    ngoài ra xây dựng lớp sử dụng các đối tượng của MyDate với 2 nhiệm vụ: so sánh 2 đối tượng MyDate và sắp xếp các đối tượng MyDate
+<https://teams.microsoft.com/l/message/19:2c26e373b26c437fae4b18d9401a30c1@thread.tacv2/1585305310821?tenantId=06f1b89f-07e8-464f-b408-ec1b45703f31&amp;groupId=e2c91277-fd67-4d13-8122-53e466d40f35&amp;parentMessageId=1585276317377&amp;teamName=113830 - IT3102 - Lý thuyết và ngôn ngữ hướng đối tượng (T6)&amp;channelName=Bài 4-Một số kỹ thuật xây dựng lớp&amp;createdTime=1585305310821>

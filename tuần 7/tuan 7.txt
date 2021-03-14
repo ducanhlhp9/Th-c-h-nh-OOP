@@ -1,0 +1,12 @@
+[4:34 PM] Nguyen Manh Tuan
+    Quan hệ kế thừa gián tiếp
+​[4:35 PM] Nguyen Manh Tuan
+    Quan hệ kế thừa giữa các lớp --> cấu trúc phân cấp hình cây. Gọi là: cây phân cấp kế thừa
+​[4:36 PM] Nguyen Manh Tuan
+    Trong cây phân cấp kế thừa --> lớp ở trên thì có mức trừu tượng hoá cao, lớp ở dưới thì có mức độ chi tiết hoá cao
+​[4:37 PM] Nguyen Manh Tuan
+    Khi đi từ dưới lên trên trong cây kế thừa --> thông tin càng tổng quát --> tổng quát hoá (generalization)
+​[4:38 PM] Nguyen Manh Tuan
+    Khi đi từ trên xuống dưới trong cây kế thừa --> thông tin càng chi tiết, cụ thể --> chuyên biệt hoá (specialization)
+​[4:39 PM] Nguyen Manh Tuan
+    Các lớp ở cùng mức trong cây kế thừa (lớp anh em) --> cùng mức trừu tượng

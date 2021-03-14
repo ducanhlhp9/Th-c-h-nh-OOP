@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="4.80">
+  <meta>
+    <name>Project</name>
+    <authors />
+    <description />
+  </meta>
+  <management>
+    <persons />
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <items>
+    <item id="di262318632996625008" cid="C001" type="class" name="Media" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="" name="Title" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+        <attribute id="" name="Category" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+        <attribute id="" name="Cost" type="float" type-id="float" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+      </attributes>
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di893449712703648333" cid="C002" type="class" name="DigitalVideoDisc" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="" name="director" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+        <attribute id="" name="length" type="Int" type-id="Int" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+      </attributes>
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di210347785729918857" cid="C003" type="class" name="Book" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="" name="authors" type="ArrayList" type-id="ArrayList" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+      </attributes>
+      <operations>
+        <operation id="" name="addAuthor" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="String authorName" type="" type-id="" default-value="">
+              <documentation />
+            </parameter>
+          </parameters>
+          <stereotypes />
+          <documentation />
+        </operation>
+        <operation id="" name="removeAuthor" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="String authorName" type="" type-id="" default-value="">
+              <documentation />
+            </parameter>
+          </parameters>
+          <stereotypes />
+          <documentation />
+        </operation>
+      </operations>
+      <template-parameters />
+    </item>
+    <item id="di875846675212789347" cid="C004" type="class" name="Orders" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="" name="media" type="ArrayList" type-id="ArrayList" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+      </attributes>
+      <operations>
+        <operation id="" name="addMedia" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="String mediaName" type="" type-id="" default-value="">
+              <documentation />
+            </parameter>
+          </parameters>
+          <stereotypes />
+          <documentation />
+        </operation>
+        <operation id="" name="removeMedia" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="String mediaName" type="" type-id="" default-value="">
+              <documentation />
+            </parameter>
+          </parameters>
+          <stereotypes />
+          <documentation />
+        </operation>
+        <operation id="" name="totalCost" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters />
+          <stereotypes />
+          <documentation />
+        </operation>
+      </operations>
+      <template-parameters />
+    </item>
+    <item id="di679659801963700733" cid="C005" type="class" name="Aims" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations>
+        <operation id="" name="main" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="String[] args" type="" type-id="" default-value="">
+              <documentation />
+            </parameter>
+          </parameters>
+          <stereotypes />
+          <documentation />
+        </operation>
+      </operations>
+      <template-parameters />
+    </item>
+    <item id="di190295061856781186" cid="GNR001" type="generalization" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di879390219964259710" cid="DEP001" type="dependency" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="use" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di833308718677455935" cid="REL001" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di893449712703648333" to="di893449712703648333">
+        <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di850073491862444115" cid="GNR002" type="generalization" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di462495232974977586" cid="GNR003" type="generalization" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di468819962520027403" cid="DEP002" type="dependency" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="use" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di416849115253321251" cid="DEP003" type="dependency" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="use" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di829378544397474242" cid="REL002" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di875846675212789347" to="di262318632996625008">
+        <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role id="" name="" multiplicity="" navigability="" association-type="aggregation" visibility="private" />
+      </relation>
+    </item>
+  </items>
+  <models>
+    <model id="p681276674839674486" name="Model 1" type="" namespace="">
+      <documentation />
+      <sub-models />
+      <diagram type="uml-class" id="p853543526741216254" name="ClassDiagram1">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>04/10/2020 17:35:15</creation-date>
+          <change-date>04/10/2020 17:42:41</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <documentation />
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di262318632996625008" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="196" ay="564" awidth="123" aheight="141" x="196" y="564" width="123" height="141" />
+            <class />
+          </item>
+          <item id="di893449712703648333" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="676" ay="105" awidth="151" aheight="77" x="676" y="105" width="0" height="77" />
+            <class />
+          </item>
+          <item id="di210347785729918857" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="427" ay="101" awidth="169" aheight="151" x="427" y="101" width="0" height="151" />
+            <class />
+          </item>
+          <item id="di875846675212789347" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="104" ay="172" awidth="183" aheight="166" x="104" y="172" width="0" height="0" />
+            <class />
+          </item>
+          <item id="di679659801963700733" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="633" ay="462" awidth="168" aheight="139" x="633" y="462" width="0" height="0" />
+            <class />
+          </item>
+          <item id="di850073491862444115" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="713" y1="182" x2="319" y2="573">
+              <points>
+                <point x="713" y="182" />
+                <point x="319" y="573" />
+              </points>
+            </layout>
+            <relation from="di893449712703648333" to="di262318632996625008" />
+          </item>
+          <item id="di462495232974977586" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="469" y1="252" x2="296" y2="564">
+              <points>
+                <point x="469" y="252" />
+                <point x="296" y="564" />
+              </points>
+            </layout>
+            <relation from="di210347785729918857" to="di262318632996625008" />
+          </item>
+          <item id="di468819962520027403" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="633" y1="487" x2="287" y2="303">
+              <points>
+                <point x="633" y="487" />
+                <point x="287" y="303" />
+              </points>
+            </layout>
+            <relation from="di679659801963700733" to="di875846675212789347" />
+          </item>
+          <item id="di416849115253321251" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="633" y1="550" x2="319" y2="620">
+              <points>
+                <point x="633" y="550" />
+                <point x="319" y="620" />
+              </points>
+            </layout>
+            <relation from="di679659801963700733" to="di262318632996625008" />
+          </item>
+          <item id="di829378544397474242" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="209" y1="338" x2="246" y2="564">
+              <points>
+                <point x="209" y="338" />
+                <point x="246" y="564" />
+              </points>
+            </layout>
+            <relation from="di875846675212789347" to="di262318632996625008" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
